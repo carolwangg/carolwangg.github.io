@@ -10,7 +10,7 @@ export function Projects() {
   return (
     <section id="work" className="border-y bg-muted/60">
       <div className="mx-auto max-w-6xl px-5 py-24 md:px-8 md:py-32">
-        <SectionHeading index="02" kicker="selected work" note="(built with some great teammates)">
+        <SectionHeading index="02" kicker="selected work" note="(Shoutout all my teammates)">
           Things I've helped build.
         </SectionHeading>
 
