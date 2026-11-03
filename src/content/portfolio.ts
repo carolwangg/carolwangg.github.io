@@ -17,7 +17,7 @@ export const profile = {
   gradYear: "2029",
   email: "carolzj.wang@mail.utoronto.ca",
   intro:
-    "I'm a computer science student at the University of Toronto who likes building things that think, render and play. Right now that means poking at AI, GPUs and game dev — usually at a hackathon, with a great team.",
+    "Cs & physics student at UofT. I like learning about everything.",
 };
 
 export type SocialKey = "github" | "linkedin" | "devpost";
@@ -70,13 +70,13 @@ export const projects: Project[] = [
     number: "01",
     name: "Home Hero",
     event: "BearHack 2026",
-    tagline: "An AI home-maintenance assistant that helps before things break.",
+    tagline: "An AI home-maintenance assistant that helps homeowners keep their appliances working longer.",
     problem:
       "Most people wait until something breaks, then scramble through manuals, forums or expensive emergency repairs. We thought home maintenance should be proactive, simple and guided by AI.",
     summary:
       "Home Hero is an AI-powered assistant that supports both proactive maintenance and reactive repair guidance — snap your appliances, get a maintenance plan, and get walked through fixes when something goes wrong.",
     contribution:
-      "I worked on appliance identification and the proactive maintenance steps using Cloud Vision + Gemini, and helped smooth out the UI.",
+      "I worked on appliance identification using Cloud Vision, and helped smooth out the UI.",
     tech: ["React Native / Expo", "Gemini", "Python", "TypeScript", "ElevenLabs"],
     links: [
       { label: "Code on GitHub", href: "https://github.com/Nosanna/BearHack2026" },
@@ -91,11 +91,11 @@ export const projects: Project[] = [
     event: "GenAI Genesis 2026",
     tagline: "Matching real-world humanitarian crises with the people who want to help.",
     problem:
-      "Global crisis information is scattered across long humanitarian reports, and it's hard for would-be donors to know where help is needed or which organizations to trust.",
+      "Global crisis information is scattered across different sources, and it's hard for good samaritans to know where help is needed or which organizations to trust.",
     summary:
-      "Empact automatically discovers global problems, uses AI to analyze and summarize humanitarian reports, and pairs ongoing crises with trusted charities working on the ground — turning crisis data into actionable ways to help.",
+      "Empact automatically discovers global problems, uses AI to analyze and summarize sources, and pairs ongoing crises with trusted charities working on the ground — turning crisis data into actionable ways to help.",
     contribution:
-      "I worked on the backend database and a Selenium agent that automatically autofills donation forms.",
+      "I worked on the backend database and a Selenium agent that reads sites and autofills donation forms.",
     tech: ["ExpressJS", "FastAPI", "Gemini", "MySQL", "BeautifulSoup"],
     links: [
       { label: "Code on GitHub", href: "https://github.com/MaryamElhamidi/Empact" },
