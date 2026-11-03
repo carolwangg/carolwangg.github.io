@@ -67,15 +67,6 @@ export function Hero() {
           Carol <span className="italic">Wang</span>
           <SparkDoodle className="absolute -top-2 -right-6 h-7 w-7 text-primary md:-right-10 md:h-10 md:w-10" />
         </h1>
-
-        <p
-          className="rise mt-8 font-mono text-xs tracking-[0.2em] text-muted-foreground uppercase sm:text-sm"
-          style={{ "--d": "240ms" } as CSSProperties}
-        >
-          {profile.role} <span className="text-primary">@</span> {profile.schoolShort} · class of{" "}
-          {profile.gradYear}
-        </p>
-
         <p
           className="rise mx-auto mt-6 max-w-xl text-lg leading-relaxed text-pretty text-foreground/85 md:text-xl"
           style={{ "--d": "340ms" } as CSSProperties}
