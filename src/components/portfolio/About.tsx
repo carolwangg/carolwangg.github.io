@@ -13,18 +13,14 @@ export function About() {
       <div className="grid gap-12 md:grid-cols-[1.4fr_1fr] md:gap-16">
         <div data-reveal className="space-y-5 text-lg leading-relaxed text-foreground/85">
           <p>
-            I study computer science at the {profile.school} and graduate in {profile.gradYear}.
-            The things that pull me in are how models learn, how GPUs make them fast, and how games
-            turn all of that into something you can actually feel.
+            I study computer science at the {profile.school} (graduating in {profile.gradYear}). I've taken courses in computer organization, DSA, systems programming, and cybersecurity. 
           </p>
           <p>
-            Most of my learning happens by building. At hackathons I've teamed up on an AI
-            home-maintenance assistant and a platform that connects humanitarian crises with donors
-            — usually ending up somewhere between the AI pipeline and the backend.
+            A lot of my learning also happens by building. In the past I've attended a lot of hackathons and built stuff from static sites to AI-pipeline webapps.
           </p>
           <p>
             Next, I'm hoping to go deeper into AI and GPU computing, and keep building things that
-            are useful <em>and</em> a little bit fun.
+            are useful and above all <em>FUN</em>.
           </p>
         </div>
 
