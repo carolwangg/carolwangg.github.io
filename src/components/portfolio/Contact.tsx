@@ -24,7 +24,7 @@ export function Contact() {
           <span className="text-primary">05</span> — contact
         </p>
         <h2 className="font-display-soft mt-4 max-w-4xl text-5xl leading-[0.98] font-bold tracking-tight text-balance md:text-7xl">
-          Got an idea, a role, or a hackathon team with room? <span className="text-primary italic">Say hi.</span>
+          Open to talking about anything.
         </h2>
         <SparkDoodle className="bob absolute top-0 right-0 hidden h-12 w-12 text-accent md:block" />
       </div>
