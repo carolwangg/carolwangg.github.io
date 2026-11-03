@@ -7,7 +7,7 @@ export function About() {
   return (
     <section id="about" className="mx-auto max-w-6xl px-5 py-24 md:px-8 md:py-32">
       <SectionHeading index="01" kicker="about">
-        Curious about the space where <span className="marker">hardware, AI and play</span> meet.
+        Who am I?
       </SectionHeading>
 
       <div className="grid gap-12 md:grid-cols-[1.4fr_1fr] md:gap-16">
