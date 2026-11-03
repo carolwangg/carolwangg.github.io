@@ -1,10 +1,10 @@
-import hhHome from "@/assets/hh-home.jpg.asset.json";
-import hhPlan from "@/assets/hh-plan.jpg.asset.json";
-import hhEquipment from "@/assets/hh-equipment.jpg.asset.json";
-import hhDetect from "@/assets/hh-detect.jpg.asset.json";
-import hhDiagram from "@/assets/hh-diagram.jpg.asset.json";
-import emHero from "@/assets/em-hero.jpg.asset.json";
-import emFeed from "@/assets/em-feed.jpg.asset.json";
+import hhHome from "@/assets/hh-home.jpg";
+import hhPlan from "@/assets/hh-plan.jpg";
+import hhEquipment from "@/assets/hh-equipment.jpg";
+import hhDetect from "@/assets/hh-detect.jpg";
+import hhDiagram from "@/assets/hh-diagram.jpg";
+import emHero from "@/assets/em-hero.jpg";
+import emFeed from "@/assets/em-feed.jpg";
 
 /** All personal content lives here so copy edits never touch layout code. */
 
@@ -108,25 +108,25 @@ export const projects: Project[] = [
 export const media = {
   homeHero: {
     phones: [
-      { src: hhPlan.url, alt: "Home Hero maintenance plan screen listing tasks due this week" },
-      { src: hhHome.url, alt: "Home Hero home screen with quick actions and upcoming tasks" },
+      { src: hhPlan, alt: "Home Hero maintenance plan screen listing tasks due this week" },
+      { src: hhHome, alt: "Home Hero home screen with quick actions and upcoming tasks" },
       {
-        src: hhEquipment.url,
+        src: hhEquipment,
         alt: "Home Hero equipment screen for a washing machine with repair and maintenance options",
       },
     ],
     detect: {
-      src: hhDetect.url,
+      src: hhDetect,
       alt: "Photo of a dryer with Cloud Vision bounding boxes labelling the dryer drum and lint filter",
     },
     diagram: {
-      src: hhDiagram.url,
+      src: hhDiagram,
       alt: "Pipeline diagram: register an appliance, Cloud Vision API, Gemma describes maintenance, proactive tasks stored in PostgreSQL",
     },
   },
   empact: {
-    main: { src: emHero.url, alt: "Empact landing page reading 'See the world. Change the outcome.' with a dotted globe" },
-    secondary: { src: emFeed.url, alt: "Empact crisis feed showing humanitarian situations with support buttons" },
+    main: { src: emHero, alt: "Empact landing page reading 'See the world. Change the outcome.' with a dotted globe" },
+    secondary: { src: emFeed, alt: "Empact crisis feed showing humanitarian situations with support buttons" },
     url: "empact-genai.netlify.app",
   },
 };
